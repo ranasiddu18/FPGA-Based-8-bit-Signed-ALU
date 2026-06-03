@@ -5,7 +5,9 @@
 ## 1. Introduction
 
 An Arithmetic Logic Unit (ALU) is one of the most important components of any digital processor. It performs arithmetic operations such as addition, subtraction, multiplication and division, as well as logical operations such as AND, OR, XOR, shifting and comparison.
+
 In a processor, the ALU acts as the computational engine. Every mathematical calculation or logical decision performed by a CPU eventually passes through the ALU.
+
 This project implements an 8-bit signed ALU using Verilog HDL and deploys it on an Edge Artix-7 FPGA board. The design supports multiple arithmetic, logical, shift, rotate and comparison operations. Input operands are loaded through FPGA switches and push buttons, while results are displayed on LEDs and a 4-digit seven-segment display.
 ________________________________________
 
