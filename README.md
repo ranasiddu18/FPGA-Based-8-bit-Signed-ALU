@@ -23,8 +23,11 @@ ________________________________________
 ## 3. Why This Project?
 
 Modern digital systems constantly perform calculations and logical decisions. Whether it is a computer executing software, a mobile phone processing data, or an embedded system controlling a device, arithmetic and logical operations are required at every stage.
+
 The Arithmetic Logic Unit (ALU) is the hardware block responsible for performing these operations. It acts as the computational core of a processor and executes instructions such as addition, subtraction, comparisons, logical operations, and data shifting.
+
 The purpose of this project is to understand how these operations are implemented at the hardware level using digital logic. By designing an ALU in Verilog HDL and implementing it on an FPGA, it becomes possible to observe how processors perform calculations internally rather than treating them as software-level operations.
+
 This project also provides practical exposure to digital design, FPGA implementation, hardware verification, status flag generation, and processor datapath concepts, which are fundamental topics in VLSI, FPGA, and Computer Architecture.
 
 ________________________________________
@@ -449,8 +452,11 @@ ________________________________________
 ## Conclusion
 
 The FPGA-Based 8-Bit Signed ALU project was successfully designed and implemented using Verilog HDL on the Edge Artix-7 FPGA board. The ALU performs a wide range of arithmetic, logical, shift, rotate, and comparison operations on signed 8-bit operands while generating important status flags such as Carry, Zero, Overflow, and Negative.
+
 A register-based operand loading mechanism was developed to overcome FPGA input limitations, allowing efficient loading of operands through a shared 8-bit data bus. The design was verified through simulation and validated on FPGA hardware using LEDs and a seven-segment display for output visualization.
+
 This project provided practical experience in digital system design, Verilog HDL coding, FPGA implementation, hardware debugging, simulation, and verification. It also helped in understanding fundamental processor datapath concepts such as register operations, ALU functionality, control signals, and status flag generation.
+
 Overall, the project serves as a strong foundation for advanced FPGA, VLSI, and processor design projects, and demonstrates how arithmetic and logical operations are implemented at the hardware level in modern digital systems.
 
 ---
