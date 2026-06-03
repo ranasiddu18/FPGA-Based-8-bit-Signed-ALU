@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/vivado/Project_ALU/Project_ALU.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+C:/vivado/Project_ALU/Project_ALU.srcs/sim_1/new/tb_ALU_8bit.v,1780385568,verilog,,,,tb_ALU_8bit,,,../../../../../2025.2/Vivado/data/rsb/busdef,,,,,
+C:/vivado/Project_ALU/Project_ALU.srcs/sim_1/new/tb_ALU_topmodule.v,1780390798,verilog,,,,tb_ALU_topmodule,,,../../../../../2025.2/Vivado/data/rsb/busdef,,,,,
+C:/vivado/Project_ALU/Project_ALU.srcs/sources_1/new/ALU_8bit.v,1780384903,verilog,,C:/vivado/Project_ALU/Project_ALU.srcs/sources_1/new/ALU_topmodule.v,,ALU_8bit,,,../../../../../2025.2/Vivado/data/rsb/busdef,,,,,
+C:/vivado/Project_ALU/Project_ALU.srcs/sources_1/new/ALU_topmodule.v,1780384969,verilog,,C:/vivado/Project_ALU/Project_ALU.srcs/sources_1/new/clock_divider.v,,ALU_topmodule,,,../../../../../2025.2/Vivado/data/rsb/busdef,,,,,
+C:/vivado/Project_ALU/Project_ALU.srcs/sources_1/new/clock_divider.v,1780385023,verilog,,C:/vivado/Project_ALU/Project_ALU.srcs/sources_1/new/seven_seg_decoder.v,,clock_divider,,,../../../../../2025.2/Vivado/data/rsb/busdef,,,,,
+C:/vivado/Project_ALU/Project_ALU.srcs/sources_1/new/seven_seg_decoder.v,1780477194,verilog,,C:/vivado/Project_ALU/Project_ALU.srcs/sources_1/new/seven_seg_top.v,,seven_seg_decoder,,,../../../../../2025.2/Vivado/data/rsb/busdef,,,,,
+C:/vivado/Project_ALU/Project_ALU.srcs/sources_1/new/seven_seg_top.v,1780385204,verilog,,C:/vivado/Project_ALU/Project_ALU.srcs/sim_1/new/tb_ALU_topmodule.v,,seven_seg_top,,,../../../../../2025.2/Vivado/data/rsb/busdef,,,,,

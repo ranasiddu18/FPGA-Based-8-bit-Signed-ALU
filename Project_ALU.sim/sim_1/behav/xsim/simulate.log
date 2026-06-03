@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Starting Top Module Simulation
+Simulation Complete
+$finish called at time : 400 ns : File "C:/vivado/Project_ALU/Project_ALU.srcs/sim_1/new/tb_ALU_topmodule.v" Line 242

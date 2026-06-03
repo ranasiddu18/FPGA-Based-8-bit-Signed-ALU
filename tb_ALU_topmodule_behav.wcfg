@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_ALU_topmodule_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_ALU_topmodule" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="400.001 ns"></ZoomEndTime>
+      <Cursor1Time time="276.173 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="267"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject fp_name="/tb_ALU_topmodule/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[4:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/load_a" type="logic">
+      <obj_property name="ElementShortName">load_a</obj_property>
+      <obj_property name="ObjectShortName">load_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/load_b" type="logic">
+      <obj_property name="ElementShortName">load_b</obj_property>
+      <obj_property name="ObjectShortName">load_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/digit" type="array">
+      <obj_property name="ElementShortName">digit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/Seven_Seg" type="array">
+      <obj_property name="ElementShortName">Seven_Seg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Seven_Seg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/reg_a" type="array">
+      <obj_property name="ElementShortName">reg_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[4:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/load_a" type="logic">
+      <obj_property name="ElementShortName">load_a</obj_property>
+      <obj_property name="ObjectShortName">load_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/load_b" type="logic">
+      <obj_property name="ElementShortName">load_b</obj_property>
+      <obj_property name="ObjectShortName">load_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/digit" type="array">
+      <obj_property name="ElementShortName">digit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/Seven_Seg" type="array">
+      <obj_property name="ElementShortName">Seven_Seg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Seven_Seg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/reg_a" type="array">
+      <obj_property name="ElementShortName">reg_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/reg_b" type="array">
+      <obj_property name="ElementShortName">reg_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/result" type="array">
+      <obj_property name="ElementShortName">result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/CF" type="logic">
+      <obj_property name="ElementShortName">CF</obj_property>
+      <obj_property name="ObjectShortName">CF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/ZF" type="logic">
+      <obj_property name="ElementShortName">ZF</obj_property>
+      <obj_property name="ObjectShortName">ZF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/OF" type="logic">
+      <obj_property name="ElementShortName">OF</obj_property>
+      <obj_property name="ObjectShortName">OF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/NF" type="logic">
+      <obj_property name="ElementShortName">NF</obj_property>
+      <obj_property name="ObjectShortName">NF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[4:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/load_a" type="logic">
+      <obj_property name="ElementShortName">load_a</obj_property>
+      <obj_property name="ObjectShortName">load_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/load_b" type="logic">
+      <obj_property name="ElementShortName">load_b</obj_property>
+      <obj_property name="ObjectShortName">load_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/digit" type="array">
+      <obj_property name="ElementShortName">digit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/Seven_Seg" type="array">
+      <obj_property name="ElementShortName">Seven_Seg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Seven_Seg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/reg_a" type="array">
+      <obj_property name="ElementShortName">reg_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/reg_b" type="array">
+      <obj_property name="ElementShortName">reg_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/result" type="array">
+      <obj_property name="ElementShortName">result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/CF" type="logic">
+      <obj_property name="ElementShortName">CF</obj_property>
+      <obj_property name="ObjectShortName">CF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/ZF" type="logic">
+      <obj_property name="ElementShortName">ZF</obj_property>
+      <obj_property name="ObjectShortName">ZF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/OF" type="logic">
+      <obj_property name="ElementShortName">OF</obj_property>
+      <obj_property name="ObjectShortName">OF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ALU_topmodule/DUT/NF" type="logic">
+      <obj_property name="ElementShortName">NF</obj_property>
+      <obj_property name="ObjectShortName">NF</obj_property>
+   </wvobject>
+</wave_config>
