@@ -261,25 +261,42 @@ ________________________________________
 
 ## 11. Seven Segment Display Logic
 The FPGA board contains four seven-segment digits.
+
 All digits share segment lines:
+
 A B C D E F G DP
+
 Therefore multiplexing is used.
+
 The FPGA enables only one digit at a time:
+
 Digit0
+
 Digit1
+
 Digit2
+
 Digit3
+
 The switching occurs thousands of times per second.
+
 Human eyes perceive all digits as continuously illuminated.
 ________________________________________
 
 ## 12. Clock Divider
+
 The FPGA oscillator operates at a very high frequency.
+
 The seven-segment display requires a slower refresh signal.
+
 A clock divider is used to generate a refresh clock.
+
 Purpose:
+
 Reduce clock frequency.
+
 Enable display multiplexing.
+
 Prevent flickering.
 ________________________________________
 
