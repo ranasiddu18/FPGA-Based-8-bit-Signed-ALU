@@ -431,4 +431,23 @@ ________________________________________
 
 ## 20. Simulation Results
 
+<img width="1575" height="1001" alt="Screenshot 2026-06-03 234019" src="https://github.com/user-attachments/assets/b98ef839-9ae7-41fa-ba48-2790fd63f93f" />
+<img width="1577" height="1009" alt="Screenshot 2026-06-03 234039" src="https://github.com/user-attachments/assets/285f8471-76fe-4aad-b72f-df290a9f7209" />
+
+---
+
+## 21. Implementation on Edge Artix 7 FPGA Board
+
+<img width="4000" height="1848" alt="20260603_151000" src="https://github.com/user-attachments/assets/35b81b7c-9b96-42f3-ae1d-13fea94d6015" />
+<img width="4000" height="1848" alt="20260603_150209" src="https://github.com/user-attachments/assets/c5d3ca22-2cbd-43dc-9f74-11a3f15cf19d" />
+<img width="4000" height="1848" alt="20260603_150907" src="https://github.com/user-attachments/assets/abffd055-3da2-4441-b1b1-ff65a2b9eb05" />
+
+---
+
+
+
+
+
+
+
 
