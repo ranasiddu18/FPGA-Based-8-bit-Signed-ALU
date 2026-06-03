@@ -37,9 +37,13 @@ ________________________________________
 Two internal registers are used:
 
 reg_a
+
 reg_b
+
 The same 8 switches are reused to load both operands.
+
 Procedure:
+
 Step 1: Set switch value.
 
 Step 2: Press load_a button.
@@ -58,117 +62,200 @@ ________________________________________
 ## 6. ALU Operations
 
 The ALU supports 27 operations.
+
 Arithmetic Operations:
+
 Addition
+
 Subtraction
+
 Multiplication
+
 Division
+
 Modulo
+
 Logical Operations:
+
 AND
+
 OR
+
 XOR
+
 XNOR
+
 NOT
+
 NAND
+
 NOR
+
 Logical AND
+
 Logical OR
+
 Logical NOT
+
 Shift Operations:
+
 Left Shift
+
 Right Shift
+
 Arithmetic Left Shift
+
 Arithmetic Right Shift
+
 Rotate Operations:
+
 Left Rotate
+
 Right Rotate
+
 Comparison Operations:
+
 Equal To
+
 Not Equal To
+
 Greater Than
+
 Less Than
+
 Greater Than or Equal To
+
 Less Than or Equal To
 ________________________________________
 
 ## 7. Understanding Signed Numbers
 
 The ALU uses signed 8-bit operands.
+
 Range:
+
 -128 to +127
+
 Signed representation uses Two’s Complement.
+
 Example:
+
 5
+
 Binary:
+
 00000101
+
 -5
+
 Binary:
+
 11111011
+
 This allows arithmetic operations on positive and negative numbers using the same hardware.
 ________________________________________
 
 ## 8. ALU Status Flags
 The ALU generates four flags.
+
 8.1 Carry Flag (CF)
+
 Indicates carry generation during addition.
+
 Example:
+
 255 + 1
+
 Generates carry.
+
 CF = 1
 ________________________________________
 
 ## 8.2 Zero Flag (ZF)
 Indicates result equals zero.
+
 Example:
+
 5 - 5 = 0
+
 ZF = 1
 ________________________________________
 
 ## 8.3 Overflow Flag (OF)
+
 Indicates signed arithmetic overflow.
+
 Example:
+
 127 + 1
+
 Expected:
+
 128
+
 Cannot be represented in 8-bit signed format.
+
 OF = 1
 ________________________________________
 
 ## 8.4 Negative Flag (NF)
 Indicates negative result.
+
 Example:
+
 5 - 10
+
 Result:
+
 -5
+
 NF = 1
 ________________________________________
 
 ## 9. Why Result is 16 Bits
 
 Inputs:
+
 A = 8 bits
+
 B = 8 bits
+
 Output:
+
 Result = 16 bits
+
 Reason:
+
 Multiplication can generate larger results.
+
 Example:
+
 127 × 127
+
 = 16129
+
 Requires 15 bits.
+
 Therefore a 16-bit result bus was chosen.
 ________________________________________
 
 ## 10. FPGA Interface
 Inputs:
+
 SW[7:0] → data_in
+
 SW[12:8] → opcode
+
 PB0 → load_a
+
 PB1 → load_b
+
 Clock → Onboard Oscillator
+
 Outputs:
+
 LED[15:0] → result
+
 7 Segment Display → hexadecimal result
 ________________________________________
 
