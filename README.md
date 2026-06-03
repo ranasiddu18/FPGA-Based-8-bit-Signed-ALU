@@ -37,19 +37,21 @@ ________________________________________
 Two internal registers are used:
 
 reg_a
-
 reg_b
-
 The same 8 switches are reused to load both operands.
-
 Procedure:
-
 Step 1: Set switch value.
+
 Step 2: Press load_a button.
+
 Result: Value is stored in reg_a.
+
 Step 3: Change switch value.
+
 Step 4: Press load_b button.
+
 Result: Value is stored in reg_b.
+
 This method reduces required FPGA input pins and demonstrates register-based data loading.
 ________________________________________
 
