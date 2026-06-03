@@ -29,6 +29,8 @@ ________________________________________
 
 ## 4. System Architecture
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/53c9ba3b-4d3d-4d79-aa86-de25c2f8fdf6" />
+
   
 ________________________________________
 
@@ -393,12 +395,19 @@ ________________________________________
 
 ## 18. Future Improvements
 1.Add LCD display.
+
 2.Add debouncing logic.
+
 3.Add reset logic.
+
 4.Add accumulator register.
+
 5.Add UART interface.
+
 6.Add instruction memory.
+
 7.Convert ALU into a simple processor core.
+
 8.Implement a RISC-V compatible ALU.
 ________________________________________
 
@@ -419,6 +428,7 @@ Hardware debugging.
 
 Processor architecture fundamentals.
 ________________________________________
+
 ## 20. Simulation Results
 
 
