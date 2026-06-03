@@ -35,10 +35,15 @@ ________________________________________
 ## 5. Input Loading Mechanism
 
 Two internal registers are used:
+
 reg_a
+
 reg_b
+
 The same 8 switches are reused to load both operands.
+
 Procedure:
+
 Step 1: Set switch value.
 Step 2: Press load_a button.
 Result: Value is stored in reg_a.
