@@ -1,4 +1,6 @@
-# FPGA-Based-8-bit-Signed-ALU
+# FPGA-Based-8-bit-Signed-ALU 
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2dc86b31-a71e-4b23-b31b-72e346339dde" />
 
 ## 1. Introduction
 
@@ -444,6 +446,14 @@ ________________________________________
 
 ---
 
+## Conclusion
+
+The FPGA-Based 8-Bit Signed ALU project was successfully designed and implemented using Verilog HDL on the Edge Artix-7 FPGA board. The ALU performs a wide range of arithmetic, logical, shift, rotate, and comparison operations on signed 8-bit operands while generating important status flags such as Carry, Zero, Overflow, and Negative.
+A register-based operand loading mechanism was developed to overcome FPGA input limitations, allowing efficient loading of operands through a shared 8-bit data bus. The design was verified through simulation and validated on FPGA hardware using LEDs and a seven-segment display for output visualization.
+This project provided practical experience in digital system design, Verilog HDL coding, FPGA implementation, hardware debugging, simulation, and verification. It also helped in understanding fundamental processor datapath concepts such as register operations, ALU functionality, control signals, and status flag generation.
+Overall, the project serves as a strong foundation for advanced FPGA, VLSI, and processor design projects, and demonstrates how arithmetic and logical operations are implemented at the hardware level in modern digital systems.
+
+---
 
 
 
