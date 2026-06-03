@@ -302,26 +302,43 @@ ________________________________________
 
 ## 13. Why LEDs Are Useful
 LEDs display the raw binary result.
+
 Example:
+
 Result = 10
+
 Binary:
+
 0000000000001010
+
 LED3 = ON
+
 LED1 = ON
+
 All others OFF.
+
 LEDs help verify hardware operation and debug FPGA designs.
 ________________________________________
 
 ## 14. FPGA Design Flow
 Step 1: Write Verilog modules.
+
 Step 2: Create testbench.
+
 Step 3: Run behavioral simulation.
+
 Step 4: Verify waveforms.
+
 Step 5: Add XDC constraints.
+
 Step 6: Synthesize design.
+
 Step 7: Implement design.
+
 Step 8: Generate bitstream.
+
 Step 9: Program FPGA.
+
 Step 10: Verify hardware outputs.
 ________________________________________
 
@@ -346,42 +363,60 @@ ________________________________________
 
 ## 16. Advantages of the Project
 Supports multiple operations.
+
 Demonstrates processor datapath concepts.
+
 Uses efficient FPGA resources.
+
 Introduces register-based operand loading.
+
 Generates status flags.
+
 Provides real-time hardware visualization.
+
 Developed using industry-standard HDL.
 ________________________________________
 
 ## 17. Limitations
 No pipelining.
+
 No instruction memory.
+
 No dedicated exception handling.
+
 No accumulator register.
+
 No processor control unit.
+
 No interrupt support.
 ________________________________________
 
 ## 18. Future Improvements
-Add LCD display.
-Add debouncing logic.
-Add reset logic.
-Add accumulator register.
-Add UART interface.
-Add instruction memory.
-Convert ALU into a simple processor core.
-Implement a RISC-V compatible ALU.
+1.Add LCD display.
+2.Add debouncing logic.
+3.Add reset logic.
+4.Add accumulator register.
+5.Add UART interface.
+6.Add instruction memory.
+7.Convert ALU into a simple processor core.
+8.Implement a RISC-V compatible ALU.
 ________________________________________
 
 ## 19. Key Learning Outcomes
 Verilog HDL coding.
+
 Combinational logic design.
+
 Sequential logic design.
+
 FPGA implementation.
+
 Constraint file creation.
+
 Simulation and verification.
+
 Hardware debugging.
+
 Processor architecture fundamentals.
 ________________________________________
 ## 20. Simulation Results
